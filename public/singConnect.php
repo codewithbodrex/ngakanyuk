@@ -16,5 +16,7 @@ if($conn -> connect_error){
     $stmt->close();
     $conn->close();
 }
+header("Location: http://localhost:8080/ngakanyuk/public/login.html");
+
 
 ?>
